@@ -5,7 +5,13 @@ import {v1} from "uuid";
 import AddItemForm from "./components/AddItemForm";
 import {AppBar, Button, Container, Grid, IconButton, Paper, Toolbar, Typography} from "@material-ui/core";
 import {Menu} from "@material-ui/icons";
-import {AddTodoList, ChangeStatus, ChangeTitle, RemoveTodoAc, todoListReducer} from "./store/todoListReducer";
+import {
+    AddTodoList,
+    ChangeStatus,
+    ChangeTitle,
+    RemoveTodoAc,
+    todoListReducer
+} from "./store/todoListReducer";
 import {
     AddTaksAc,
     AddTodolistAC,

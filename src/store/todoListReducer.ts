@@ -23,6 +23,7 @@ type ChangeTitle={
     todolistId:string
     title:string
 }
+
 type ActionType=RemoveTodoListActionType | AddTodoList |StatusFilter|ChangeTitle
 
 export const todoListReducer=(state:Array<TodoListTypes>,action:ActionType): Array<TodoListTypes>=>{

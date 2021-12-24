@@ -84,7 +84,7 @@ export const ChangeStatusAc=(id:string,isDone:boolean, todolistId:string):Status
         todolistId,
     }
 }
-export const ChangeTaskTitleAc=(id:string,todolistId:string,title:string):ChangeTitle=>{
+export const ChangeTaskTitleAc=(id:string,title:string,todolistId:string):ChangeTitle=>{
     return {
         type:"CHANGE-NAME-TITLE",
         id,
